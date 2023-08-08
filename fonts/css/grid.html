@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <style>
+
+        .main{
+            height: 500px;
+            /* width: 500px; */
+            background-color: yellow;
+
+            display: grid;
+
+            /* grid-template-columns: 100px 200px 100px; */
+            /* grid-template-columns: repeat(3,100px); */
+            grid-template-columns: repeat(3,1fr);
+            /* grid-template-columns: 100px auto 100px; */
+
+            /* grid-template-rows: 100px 250px 150px; */
+            grid-template-rows: repeat(3,1fr);
+            /* grid-template-rows: repeat(3,100px); */
+
+            /* column-gap: 10px; */
+            /* row-gap: 10px; */
+            gap: 10px;
+
+            /* justify-content:center; */
+            /* align-content: space-evenly; */
+
+            /* justify-items: center; */
+            /* align-items: stretch; */
+
+        }
+        .item{
+            /* height: 100px; */
+            /* width: 100px; */
+            background-color: brown;
+            color: #fff;
+        }
+        .item-1{
+            /* grid-column-start: 1; */
+            /* grid-column-end: 4; */
+            /* grid-column: 1 /span 3; */
+
+            /* grid-row-start: 1; */
+            /* grid-row-end: 5; */
+            /* grid-row: 1 / span 3; */
+        }
+        .item-2{
+            /* align-self: center; */
+            /* justify-self: flex-end; */
+        }
+
+        main{
+
+            display: grid;
+
+            grid-template-areas:
+                'header header nav nav'
+                'section section section aside'
+                'footer footer footer footer'
+            ;
+
+        }
+
+        header{
+            grid-area: header;
+        }
+        nav{
+            grid-area: nav;
+        }
+        section{
+            grid-area: section;
+        }
+        aside{
+            grid-area: aside;
+        }
+        footer{
+            grid-area: footer;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <!-- <div class="main">
+        <div class="item item-1">Item 1</div>
+        <div class="item item-2">Item 2</div>
+        <div class="item item-3">Item 3</div>
+        <div class="item item-4">Item 4</div>
+        <div class="item item-5">Item 5</div>
+        <div class="item item-6">Item 6</div>
+        <div class="item item-7">Item 7</div>
+        <div class="item item-8">Item 8</div>
+        <div class="item item-9">Item 9</div>
+    </div> -->
+
+
+    <main>
+        <header>
+            <h1>Header</h1>
+        </header>
+        <nav>
+            <h1>Navigation</h1>
+        </nav>
+        <section>
+            <h1>Section 1</h1>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis ducimus explicabo alias commodi, quia enim maxime possimus quidem iusto numquam perferendis amet molestias saepe, perspiciatis quod assumenda ullam id modi?
+            </p>
+        </section>
+        <aside>
+            <h1>Aside</h1>
+            <img src="image/back.jpg" width="100%" alt="">
+        </aside> 
+        <footer>
+            <h1>Footer</h1>
+        </footer>
+    </main>
+</body>
+</html>

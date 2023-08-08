@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">\
+    <link rel="stylesheet" href="testimonials_slider.css">
+</head>
+<body>
+    
+    <div class="owl-carousel owl-theme">
+        <div class="item img">
+            <img src="https://elfsight.com/assets/testimonials-slider/1.jpg" alt="">
+            <b>Taylor Jay Love the design and customization of InstaShow 👍. We have used various Instagram apps for Shopify in the past but they would always mess up our theme. I love how we can completely customize InstaShow to how we want the feed to come out. Loads quickly and responsive to all devices. A++</b>
+        </div>
+        <div>
+            <img src="https://elfsight.com/assets/testimonials-slider/3.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://elfsight.com/assets/testimonials-slider/4.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://elfsight.com/assets/testimonials-slider/6.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://elfsight.com/assets/testimonials-slider/7.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://elfsight.com/assets/testimonials-slider/8.jpg" alt="">
+        </div>
+        
+
+    </div>
+
+    <script src="js/jquery-3.6.2.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    
+
+    <script>
+        $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        center:true,
+
+
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+        });
+
+    </script>
+
+</body>
+</html>

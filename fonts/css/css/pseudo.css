@@ -1,0 +1,125 @@
+/* a:link{
+    color: yellowgreen;
+    font-size: 25px;
+}
+a:active{
+    color: coral;
+}
+a:visited{
+    color: blueviolet;
+} */
+
+/* .list li:first-child{
+    background-color: brown;
+}
+.list li:last-child{
+    background-color: blueviolet;
+}
+.list li:nth-child(4){
+    background-color: burlywood;
+}
+.list li:nth-last-child(even){
+    background-color: cornflowerblue;
+} */
+
+/* .main p:first-of-type{
+    background-color: brown;
+}
+.main p:last-of-type{
+    background-color: blueviolet;
+}
+.main h2:nth-of-type(2){
+    background-color: burlywood;
+}
+.main p:nth-last-of-type(odd){
+    background-color: cornflowerblue;
+} */
+
+/* .main p:only-child{
+    background-color: rgb(130, 25, 25);
+}
+.main span:only-of-type{
+    background-color: cadetblue;
+} */
+
+/* .main :not(p){
+    background-color: crimson;
+} */
+
+/* .box:empty{
+    height: 50px;
+    width: 200px;
+    background-color: chocolate;
+} */
+
+/* input[name="jenish1"]:enabled{
+    background-color: green;
+}
+input[name=jenish1]:disabled{
+    background-color: red;
+    opacity: .5;
+} */
+
+/* input[name="jenish2"]:focus{
+    background-color: burlywood;
+} */
+
+/* input[name="jenish3"]:read-write{
+    color: brown;
+}
+input[name="jenish3"]:read-only{
+    color: blueviolet;
+} */
+
+/* input[name="jenish4"]:optional{
+    color: green;
+}
+input[name="jenish4"]:required{
+    color: red;
+} */
+
+/* input[name="jenish5"]:in-range{
+    color: green;
+}
+input[name="jenish5"]:out-of-range{
+    color: red;
+} */
+
+/* input[name="jenish6"]:valid{
+    color: green;
+}
+input[name="jenish6"]:invalid{
+    color: red;
+} */
+
+/* :target{
+    color: red;
+} */
+
+/* input[name="chk"]:checked ~ span{
+    color: red;
+} */
+
+p::first-letter{
+    font-size: 50px;
+}
+p::first-line{
+    color: rgb(25, 188, 47);
+}
+
+::selection{
+    background-color: #2900cc;
+    color: rgb(126, 181, 191);
+}
+
+input[type="text"]::placeholder{
+    color: red;
+}
+
+
+
+
+
+
+
+

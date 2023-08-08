@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Gill Sans;
+}
+.container{
+    padding: 0px 10px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: white;
+    height: 100hv;
+    width: 18%;
+}
+.logo_header{
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.main_logo a img{
+    width: 50px;
+    height: auto;
+    padding: 10px 0px;
+}
